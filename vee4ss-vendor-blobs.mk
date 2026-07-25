@@ -6,6 +6,7 @@ LOCAL_PATH := vendor/lge/vee4ss/proprietary
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/app/MtkBt.apk:system/app/MtkBt.apk \
     $(LOCAL_PATH)/bin/6620_launcher:system/bin/6620_launcher \
+    $(LOCAL_PATH)/bin/bmc150d:system/bin/bmc150d \
     $(LOCAL_PATH)/bin/msensord:system/bin/msensord \
     $(LOCAL_PATH)/bin/btconfig:system/bin/btconfig \
     $(LOCAL_PATH)/bin/btlogmask:system/bin/btlogmask \

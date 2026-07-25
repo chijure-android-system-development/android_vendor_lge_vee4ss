@@ -6,6 +6,8 @@ LOCAL_PATH := vendor/lge/vee4ss/proprietary
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bin/6620_launcher:system/bin/6620_launcher \
     $(LOCAL_PATH)/bin/bmc150d:system/bin/bmc150d \
+    $(LOCAL_PATH)/bin/boot_logo_updater:system/bin/boot_logo_updater \
+    $(LOCAL_PATH)/media/images/boot_logo:system/media/images/boot_logo \
     $(LOCAL_PATH)/bin/msensord:system/bin/msensord \
     $(LOCAL_PATH)/bin/btconfig:system/bin/btconfig \
     $(LOCAL_PATH)/bin/btlogmask:system/bin/btlogmask \

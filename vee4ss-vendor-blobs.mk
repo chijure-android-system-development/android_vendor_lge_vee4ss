@@ -69,6 +69,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libaudioeffectsole.so:system/lib/libaudioeffectsole.so \
     $(LOCAL_PATH)/lib/hw/camera.default.so:system/lib/hw/camera.stock.mt6575.so \
     $(LOCAL_PATH)/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    $(LOCAL_PATH)/lib/libcamalgo.so:system/lib/libcamalgo.so \
+    $(LOCAL_PATH)/lib/libcameracustom.so:system/lib/libcameracustom.so \
+    $(LOCAL_PATH)/lib/libcameraprofile.so:system/lib/libcameraprofile.so \
     $(LOCAL_PATH)/lib/libmhal.so:system/lib/libmhal.so \
     $(LOCAL_PATH)/lib/libmhalmdp.so:system/lib/libmhalmdp.so \
     $(LOCAL_PATH)/lib/libmhalscenario.so:system/lib/libmhalscenario.so \

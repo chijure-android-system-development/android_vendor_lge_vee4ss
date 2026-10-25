@@ -155,3 +155,25 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/xbin/libmnlp:system/xbin/libmnlp \
     $(LOCAL_PATH)/etc/agps_profiles_conf.xml:system/etc/agps_profiles_conf.xml \
     $(LOCAL_PATH)/etc/epo_conf.xml:system/etc/epo_conf.xml
+
+# MediaTek OMX video codecs. These were not pulled from the stock E440g;
+# they come from the stock E450g (same MT6575 and LG JZO54K build) and run
+# on this phone's own vcodec_kernel_driver.ko.
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/lib/libstagefrighthw_mtk.so:system/lib/libstagefrighthw_mtk.so \
+    $(LOCAL_PATH)/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
+    $(LOCAL_PATH)/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
+    $(LOCAL_PATH)/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
+    $(LOCAL_PATH)/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
+    $(LOCAL_PATH)/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
+    $(LOCAL_PATH)/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
+    $(LOCAL_PATH)/lib/libstagefright_memutil.so:system/lib/libstagefright_memutil.so \
+    $(LOCAL_PATH)/lib/libsched.so:system/lib/libsched.so \
+    $(LOCAL_PATH)/lib/libh264dec_xa.ca9.so:system/lib/libh264dec_xa.ca9.so \
+    $(LOCAL_PATH)/lib/libh264dec_customize.so:system/lib/libh264dec_customize.so \
+    $(LOCAL_PATH)/lib/libmp4dec_sa.ca9.so:system/lib/libmp4dec_sa.ca9.so \
+    $(LOCAL_PATH)/lib/libmp4dec_customize.so:system/lib/libmp4dec_customize.so \
+    $(LOCAL_PATH)/lib/libvp8dec_xa.ca9.so:system/lib/libvp8dec_xa.ca9.so \
+    $(LOCAL_PATH)/lib/libmp4enc_xa.ca9.so:system/lib/libmp4enc_xa.ca9.so \
+    $(LOCAL_PATH)/lib/libh264enc_sa.ca9.so:system/lib/libh264enc_sa.ca9.so \
+    $(LOCAL_PATH)/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg

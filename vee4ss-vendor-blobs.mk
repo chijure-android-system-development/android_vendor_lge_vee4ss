@@ -177,3 +177,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libmp4enc_xa.ca9.so:system/lib/libmp4enc_xa.ca9.so \
     $(LOCAL_PATH)/lib/libh264enc_sa.ca9.so:system/lib/libh264enc_sa.ca9.so \
     $(LOCAL_PATH)/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg
+
+# MediaTek FM receiver (MT6620), used by the device tree's FmRadio app.
+# From the stock E450g; both phones carry the same MT6620.
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/lib/libfmjni.so:system/lib/libfmjni.so \
+    $(LOCAL_PATH)/lib/libfmcust.so:system/lib/libfmcust.so \
+    $(LOCAL_PATH)/lib/libfmmt6620.so:system/lib/libfmmt6620.so
